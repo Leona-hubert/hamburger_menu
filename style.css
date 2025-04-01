@@ -1,0 +1,57 @@
+
+
+header{
+display: flex;
+align-items: end;
+background-color: aqua;
+color: brown;
+padding: 40px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.nav{
+    margin-left: auto;
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+.nav ul li a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+.nav ul li a:hover,
+.nav ul li a:focus{
+    color: red;
+}
+.hamburger span{
+width: 40px;
+height: 5px;
+margin-bottom: 10px;
+}
+.hamburger{
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+
+
+}
+.nav{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    background-color: blue;
+}
+.nav ul{
+    
+}
