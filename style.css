@@ -22,6 +22,7 @@ img{
     list-style: none;
     display: flex;
     
+    
 }
 .nav ul li a{
     color: white;
@@ -54,4 +55,44 @@ margin-bottom: 10px;
 }
 .nav ul{
     
+    
+}
+form{
+    width: 400px;
+    border: 20px;
+    height: 20px; 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.pohlavi{
+    width: 50px;
+}
+.btn{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: large;
+    border-radius: 20px;
+    
+
+}
+.btn:hover
+.btn :focus
+
+.modal{
+    display: none;
+    border: 5px;
+    height: 30px;
+    width: 50px;  
+}
+.zavrit{
+    font-size: xx-large;
+    background-color: blueviolet;
+
+
 }
